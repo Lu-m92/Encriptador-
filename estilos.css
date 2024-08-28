@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #0b8494;
+    color:#125b9a;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+.container__izq{
+    width: 415px;
+}
+
+.img{
+    padding: 10px;
+    margin-left: 10px;
+    width: 5%;
+}
+.text-area{
+    background-color: #0b8494;
+    border: none;
+    color: #125b9a;
+    margin-top: 9px;
+    padding: 50px 50px;
+}
+.text-area:focus{
+    outline: none;
+}
+::placeholder{color: #f05a7e;}
+
+
+.botones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.boton-encriptar{
+    background-color: #ffbe98;
+    color:#125B9A;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+}
+.boton-desencriptar{
+    background-color: #f05a7e;
+    color:#125B9A;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    margin-left: 10px;
+    
+}
+
+
+/**/
+
+.msj{
+    background: #ffbe98;
+    background-image: url(img/1000062077-removebg-preview.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 20px;
+    color: #125B9A;
+    margin-left: 98px;
+    margin-top: 1px;
+    padding: 150px 150px;
+    margin-bottom: 20px;
+}
+.msj:focus{
+    outline: none;
+}
+.copiar{
+    background-color: #f05a7e;
+    color:#125B9A;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    height: 60px;
+    width: 250px;
+    position: absolute;
+    margin-left: 15%;
+}
